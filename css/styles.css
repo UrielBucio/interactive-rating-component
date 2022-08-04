@@ -48,6 +48,7 @@ h1, h2 {
 p {
     color: var(--mediumGrey);
     font-weight: 400;
+    line-height: 25px;
     margin-bottom: 30px;
 }
 .button_container {
@@ -91,6 +92,7 @@ p {
     background-color: var(--white);
     color: var(--orange);
 }
+/* Thank you state start */
 .thank_container {
     display: none;
     padding: 45px;
@@ -115,4 +117,40 @@ p {
 }
 .attribution a { 
     color: var(--mediumGrey); 
+}
+@media screen and (max-width:768px) {
+    .rating_container, .thank_container {
+        border-radius: 15px;
+        margin-top: 9.688rem;
+        padding: 25px;
+        width: 330px;
+    }
+    .icon_star {
+        height: 40px;
+        margin-bottom: 20px;
+        width: 40px;
+    }
+    .icon_star img{
+        width: 15px;
+    }
+    p {
+        font-size: 0.85rem;
+    }
+    .button_container {
+        margin-bottom: 25px;
+    }
+    .button_container input {
+        font-size: 0.9rem;
+        height: 40px;
+        width: 40px;
+    }
+    .thank_container {
+        padding: 30px;
+    }
+    .rating {
+        margin: 20px auto 30px;
+    }
+    .details {
+        margin-bottom: 5px;
+    }
 }
