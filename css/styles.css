@@ -110,6 +110,12 @@ p {
 .details {
     margin: 0;
 }
+.show_container {
+    display: block;
+}
+.hidden_container {
+    display: none;
+}
 .attribution { 
     color: var(--white);
     font-size: 11px; 
